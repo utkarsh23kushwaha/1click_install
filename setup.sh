@@ -90,19 +90,6 @@ sudo apt install libcairo2-dev pkg-config python3-dev
 sudo apt-get install libgirepository1.0-dev
 sudo apt-get install libcairo2-dev gir1.2-gstreamer-1.0
 sudo apt install libpq-dev python3-dev
-sudo apt install postgresql-server-dev-all
 
 
-pip3 install numpy==1.22.0
-pip3 install Cython
-pip3 install imageio
-pip3 install nats-py
-pip3 install pytz
-pip3 install pycairo
-pip3 install PyGObject
-pip3 install python-dotenv
-pip3 install opencv-python
-pip3 install psycopg2
-pip3 install torch==1.8.0
-pip3 install torchvision==0.9.0
-pip3 install natsort
+
