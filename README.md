@@ -13,5 +13,5 @@
 5. Run `./setup.sh`
 
 # About
-This repo contains a shell script to install Nvidia DeepstreamSDK v6.2 and all its dependencies along with Python bindings.  <br>
-Only applicable to amd64 architecture devices (x86_64) with Ubuntu OS. <br>
+This repo contains a shell script to install Nvidia DeepstreamSDK v6.2 and all its dependencies along with Python bindings for both dGPU and jetson type devices.  <br>
+
