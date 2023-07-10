@@ -67,8 +67,8 @@ sudo git submodule update --init
 sudo apt-get install -y apt-transport-https ca-certificates -y
 sudo update-ca-certificates
 cd 3rdparty/gst-python/
-./autogen.sh
-make
+sudo ./autogen.sh
+sudo make
 sudo make install
 
 cd deepstream_python_apps/bindings
