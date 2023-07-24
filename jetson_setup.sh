@@ -60,7 +60,7 @@ sudo ./autogen.sh
 sudo make
 sudo make install
 ​
-cd deepstream_python_apps/bindings
+cd /opt/nvidia/deepstream/deepstream-6.2/sources/deepstream_python_apps/bindings
 sudo mkdir build
 cd build
 sudo cmake ..  -DPYTHON_MAJOR_VERSION=3 -DPYTHON_MINOR_VERSION=8 \
