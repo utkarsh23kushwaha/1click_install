@@ -80,16 +80,6 @@ sudo make
 sudo pip3 install ./pyds-1.1.6-py3-none*.whl
 
 
-sudo apt-get -y install duplicity 
-sudo apt-get install cmake
-sudo apt install build-essential libdbus-glib-1-dev libgirepository1.0-dev
-sudo apt-get install libudev-dev libsystemd-dev
-sudo apt-get install libcups2-dev
-sudo apt-get install libxml2-dev libxmlsec1-dev
-sudo apt install libcairo2-dev pkg-config python3-dev
-sudo apt-get install libgirepository1.0-dev
-sudo apt-get install libcairo2-dev gir1.2-gstreamer-1.0
-sudo apt install libpq-dev python3-dev
 
 
 
