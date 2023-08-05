@@ -1,5 +1,6 @@
 #!/bin/bash
 ​​
+sudo apt update
 sudo apt install \
 libssl1.1 \
 libgstreamer1.0-0 \
