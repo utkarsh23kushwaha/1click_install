@@ -1,17 +1,6 @@
 #!/bin/bash
 
-if command -v conda &> /dev/null; then
-    echo "Conda is installed. Continuing with the process..."
-    # Add your package installation commands here
-else
-    echo "Conda is not installed. Please install Conda and run the script again."
-    exit 1  # Exit the script with a non-zero status code
-fi
-
-conda create -n deepstreamenv python=3.8 
-conda activate deepstreamenv
-
-
+sudo apt update
 sudo apt install \
 libssl1.1 \
 libgstreamer1.0-0 \
@@ -30,6 +19,7 @@ gcc \
 make \
 git 
 
+sudo apt get update
 sudo apt-get install gstreamer1.0-doc gstreamer1.0-tools gstreamer1.0-x gstreamer1.0-alsa gstreamer1.0-gl gstreamer1.0-gtk3 gstreamer1.0-qt5 gstreamer1.0-pulseaudio
 sudo apt-get install libgstreamer1.0-0 gstreamer1.0-dev gstreamer1.0-tools gstreamer1.0-doc
 
