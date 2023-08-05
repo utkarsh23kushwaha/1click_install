@@ -1,3 +1,6 @@
+#Important 
+Create a virtual environment with python = 3.8 and activate the environment before running this bash script <br>
+Why? Because it'll be easier to manage packages
 # One click DeepStream Installation on dGPU type device
 1. Clone the repo <br>
 2. Make sure setup.sh and deepstream_sdk_v6.2.0_x86_64.tbz file are in the same directory <br>
