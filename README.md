@@ -1,4 +1,4 @@
-#Important 
+# Important 
 Create a virtual environment with python = 3.8 and activate the environment before running this bash script <br>
 Why? Because it'll be easier to manage packages
 # One click DeepStream Installation on dGPU type device
